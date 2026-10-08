@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicas de Cabelo da Bia | Cuidados com Amor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        pink: {
+                            50: '#fff5f7',
+                            100: '#ffe3e8',
+                            200: '#ffccd5',
+                            300: '#ff99ac',
+                            400: '#ff6682',
+                            500: '#ff3359',
+                            600: '#e6002b',
+                        },
+                        rose: {
+                            50: '#fdf2f2',
+                            100: '#fbe8e8',
+                            500: '#d96b6b',
+                            800: '#733b3b',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        serif: ['"Playfair Display"', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .custom-shadow {
+            box-shadow: 0 10px 30px -5px rgba(255, 153, 172, 0.2);
+        }
+        .soft-gradient {
+            background: linear-gradient(135deg, #fff5f7 0%, #ffe3e8 100%);
+        }
+    </style>
+</head>
+<body class="bg-pink-50/50 text-neutral-700 font-sans antialiased selection:bg-pink-200 selection:text-pink-800">
+
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-pink-100">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center text-pink-500 font-serif font-bold text-xl group-hover:scale-105 transition-transform">
+                    B
+                </div>
+                <span class="font-serif text-xl font-semibold tracking-wide text-neutral-800">Cabelos da Bia</span>
+            </a>
+            
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="#sobre" class="hover:text-pink-500 transition-colors">Sobre a Bia</a>
+                <a href="#tipos" class="hover:text-pink-500 transition-colors">Tipos de Cabelo</a>
+                <a href="#cronograma" class="hover:text-pink-500 transition-colors">Cronograma Capilar</a>
+                <a href="#dicas" class="hover:text-pink-500 transition-colors">Dicas Diárias</a>
+            </nav>
+
+            <a href="#cronograma" class="bg-pink-400 hover:bg-pink-500 text-white text-sm font-medium px-5 py-2.5 rounded-full shadow-md shadow-pink-200 transition-all hover:shadow-lg">
+                Começar Rotina
+            </a>
+        </div>
+    </header>
+
+    <section class="relative overflow-hidden py-16 md:py-24 soft-gradient border-b border-pink-100">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6 text-center md:text-left">
+                <span class="inline-flex items-center gap-2 bg-white/80 border border-pink-200 text-pink-600 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase shadow-sm">
+                    <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Seu guia de beleza capilar
+                </span>
+                <h1 class="font-serif text-4xl md:text-6xl text-neutral-800 font-bold leading-tight">
+                    Cabelos saudáveis, <span class="text-pink-500 italic">leves</span> e cheios de vida.
+                </h1>
+                <p class="text-neutral-600 text-base md:text-lg font-light leading-relaxed">
+                    Oi, gatinha! Eu sou a Bia. Criei este cantinho com muito amor para dividir segredos de cuidados, hidratação e muito brilho para todos os tipos de cabelo. Vamos juntas?
+                </p>
+                <div class="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 pt-2">
+                    <a href="#tipos" class="w-full sm:w-auto bg-pink-500 hover:bg-pink-600 text-white font-medium px-8 py-3.5 rounded-2xl shadow-lg shadow-pink-300 transition-all flex items-center justify-center gap-2">
+                        <span>Descobrir meu tipo</span>
+                        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                    <a href="#sobre" class="w-full sm:w-auto bg-white hover:bg-pink-50 text-neutral-700 border border-pink-200 font-medium px-6 py-3.5 rounded-2xl transition-all text-center">
+                        Conhecer a Bia
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bia's Avatar / Cover Illustration -->
+            <div class="flex justify-center relative">
+                <div class="absolute w-72 h-72 md:w-96 md:h-96 bg-pink-200/50 rounded-full blur-2xl -z-10 animate-pulse"></div>
+                <div class="relative bg-white p-4 rounded-3xl custom-shadow border border-pink-100 max-w-sm w-full">
+                    <div class="relative rounded-2xl overflow-hidden bg-gradient-to-b from-pink-100 to-pink-200 aspect-[4/5] flex flex-col items-center justify-end">
+                        <!-- SVG Illustration representing Bia with smooth brown hair -->
+                        <svg viewBox="0 0 300 350" class="w-full h-full object-cover">
+                            <!-- Background soft circle -->
+                            <circle cx="150" cy="175" r="120" fill="#fff5f7" />
+                            
+                            <!-- Bia's Neck & Shoulders -->
+                            <path d="M110 270 Q150 250 190 270 L210 350 L90 350 Z" fill="#ffd1dc" />
+                            <path d="M120 280 C120 250 180 250 180 280 L185 350 L115 350 Z" fill="#ffb6c1" />
+
+                            <!-- Bia's Face -->
+                            <ellipse cx="150" cy="160" rx="55" ry="65" fill="#fce4d6" />
+
+                            <!-- Smooth Brown Hair (Back Layer) -->
+                            <path d="M85 130 C70 190 80 290 110 320 L190 320 C220 290 230 190 215 130 C200 90 100 90 85 130 Z" fill="#5c3a21" />
+
+                            <!-- Face Features -->
+                            <!-- Eyes -->
+                            <circle cx="130" cy="155" r="4" fill="#3a2518" />
+                            <circle cx="170" cy="155" r="4" fill="#3a2518" />
+                            <!-- Eyelashes & Brows -->
+                            <path d="M123 148 Q130 144 137 148" stroke="#3a2518" stroke-width="2" fill="none" stroke-linecap="round" />
+                            <path d="M163 148 Q170 144 177 148" stroke="#3a2518" stroke-width="2" fill="none" stroke-linecap="round" />
+                            <!-- Cheeks -->
+                            <ellipse cx="125" cy="170" rx="8" ry="5" fill="#ffb5b5" opacity="0.6" />
+                            <ellipse cx="175" cy="170" rx="8" ry="5" fill="#ffb5b5" opacity="0.6" />
+                            <!-- Smile -->
+                            <path d="M142 180 Q150 188 158 180" stroke="#b86b6b" stroke-width="2.5" fill="none" stroke-linecap="round" />
+
+                            <!-- Smooth Brown Hair (Front/Top Layer & Straight bangs/sides) -->
+                            <path d="M90 120 Q150 90 210 120 C220 160 210 280 195 320 C195 320 185 240 180 200 C170 140 130 140 120 200 C115 240 105 320 105 320 C90 280 80 160 90 120 Z" fill="#6b4423" />
+                            <!-- Highlights on straight hair -->
+                            <path d="M112 150 Q118 220 120 280" stroke="#8c5832" stroke-width="3" fill="none" opacity="0.6" stroke-linecap="round" />
+                            <path d="M188 150 Q182 220 180 280" stroke="#8c5832" stroke-width="3" fill="none" opacity="0.6" stroke-linecap="round" />
+
+                            <!-- Cute Pink Bow on Hair -->
+                            <path d="M150 105 L135 90 C125 90 120 100 130 110 Z" fill="#ff6682" />
+                            <path d="M150 105 L165 90 C175 90 180 100 170 110 Z" fill="#ff6682" />
+                            <circle cx="150" cy="106" r="6" fill="#e6002b" />
+                        </svg>
+                    </div>
+                    <div class="mt-4 text-center">
+                        <h3 class="font-serif font-bold text-lg text-neutral-800">Bia &bull; Fundadora</h3>
+                        <p class="text-xs text-pink-500 font-medium">Especialista em Cabelos Lisos & Saudáveis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-6 text-center space-y-6">
+            <div class="inline-block p-3 bg-pink-50 rounded-2xl text-pink-500 mb-2">
+                <i data-lucide="heart" class="w-6 h-6"></i>
+            </div>
+            <h2 class="font-serif text-3xl md:text-4xl font-bold text-neutral-800">Quem sou eu?</h2>
+            <p class="text-neutral-600 text-base md:text-lg font-light leading-relaxed max-w-2xl mx-auto">
+                Oi gente! Meu nome é Bia. Desde pequena sou fascinada por cuidados capilares. Meu cabelo é castanho e liso natural, mas passei anos testando receitinhas, cronogramas e produtos para descobrir o segredo do brilho espelhado sem frizz. Resolvi criar este site para compartilhar tudo o que aprendi com vocês!
+            </p>
+            <div class="grid grid-cols-3 gap-6 pt-8 max-w-lg mx-auto border-t border-pink-100">
+                <div>
+                    <span class="block font-serif text-2xl font-bold text-pink-500">+5 Anos</span>
+                    <span class="text-xs text-neutral-500 font-medium">Estudando Tricologia</span>
+                </div>
+                <div>
+                    <span class="block font-serif text-2xl font-bold text-pink-500">100%</span>
+                    <span class="text-xs text-neutral-500 font-medium">Dicas Práticas</span>
+                </div>
+                <div>
+                    <span class="block font-serif text-2xl font-bold text-pink-500">Todos</span>
+                    <span class="text-xs text-neutral-500 font-medium">Os Tipos de Fios</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tipos" class="py-20 bg-pink-50/50">
+        <div class="max-w-6xl mx-auto px-6 space-y-12">
+            <div class="text-center space-y-3 max-w-xl mx-auto">
+                <span class="text-xs font-semibold tracking-wider text-pink-500 uppercase">Guia Completo</span>
+                <h2 class="font-serif text-3xl md:text-4xl font-bold text-neutral-800">Dicas para Todos os Tipos de Cabelo</h2>
+                <p class="text-neutral-600 text-sm">Cada curvatura tem sua beleza única e necessidades específicas. Escolha o seu:</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Liso -->
+                <div class="bg-white p-6 rounded-3xl custom-shadow border border-pink-100 hover:-translate-y-1 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-pink-50 flex items-center justify-center text-pink-500 mb-4">
+                            <i data-lucide="sparkle" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-neutral-800 mb-2">Cabelos Lisos</h3>
+                        <p class="text-xs text-pink-500 font-semibold mb-3">Meu tipo favorito! ✨</p>
+                        <p class="text-neutral-600 text-sm font-light leading-relaxed">
+                            O óleo natural da raiz chega fácil às pontas, por isso o foco é evitar a oleosidade excessiva e dar brilho espelhado com leave-in leve.
+                        </p>
+                    </div>
+                    <ul class="mt-6 space-y-2 text-xs text-neutral-600 border-t border-pink-50 pt-4">
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-pink-500"></i> Lavar com água morna a fria</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-pink-500"></i> Protetor térmico sempre</li>
+                    </ul>
+                </div>
+
+                <!-- Ondulado -->
+                <div class="bg-white p-6 rounded-3xl custom-shadow border border-pink-100 hover:-translate-y-1 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-pink-50 flex items-center justify-center text-pink-500 mb-4">
+                            <i data-lucide="wind" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-neutral-800 mb-2">Cabelos Ondulados</h3>
+                        <p class="text-xs text-pink-500 font-semibold mb-3">Ondas praianas e leves</p>
+                        <p class="text-neutral-600 text-sm font-light leading-relaxed">
+                            Fios em 'S' que precisam de definição sem perder o movimento natural. Amassar com creme leve faz toda a diferença.
+                        </p>
+                    </div>
+                    <ul class="mt-6 space-y-2 text-xs text-neutral-600 border-t border-pink-50 pt-4">
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-pink-500"></i> Uso de difusor em velocidade baixa</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-pink-500"></i> Gelatina capilar para fixar</li>
+                    </ul>
+                </div>
+
+                <!-- Cacheado -->
+                <div class="bg-white p-6 rounded-3xl custom-shadow border border-pink-100 hover:-translate-y-1 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-pink-50 flex items-center justify-center text-pink-500 mb-4">
+                            <i data-lucide="circle-dot" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-neutral-800 mb-2">Cabelos Cacheados</h3>
+                        <p class="text-xs text-pink-500 font-semibold mb-3">Cachos definidos e volumosos</p>
+                        <p class="text-neutral-600 text-sm font-light leading-relaxed">
+                            Precisam de muita nutrição e fitagem capilar. O óleo vegetal é o melhor amigo para selar as pontas e reter a hidratação.
+                        </p>
+                    </div>
+                    <ul class="mt-6 space-y-2 text-xs text-neutral-600 border-t border-pink-50 pt-4">
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-pink-500"></i> Técnica de fitagem no banho</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-pink-500"></i> Fronha de cetim para dormir</li>
+                    </ul>
+                </div>
+
+                <!-- Crespo -->
+                <div class="bg-white p-6 rounded-3xl custom-shadow border border-pink-100 hover:-translate-y-1 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-pink-50 flex items-center justify-center text-pink-500 mb-4">
+                            <i data-lucide="flower-2" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-neutral-800 mb-2">Cabelos Crespos</h3>
+                        <p class="text-xs text-pink-500 font-semibold mb-3">Poder, força e versatilidade</p>
+                        <p class="text-neutral-600 text-sm font-light leading-relaxed">
+                            Estrutura delicada que pede umectação potente e respeito às curvaturas fechadas. O day after é mantido com borrifada de água e creme.
+                        </p>
+                    </div>
+                    <ul class="mt-6 space-y-2 text-xs text-neutral-600 border-t border-pink-50 pt-4">
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-pink-500"></i> Umectação noturna com óleos</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-pink-500"></i> Pente garfo para dar volume</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cronograma" class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-6 space-y-12">
+            <div class="text-center space-y-3 max-w-xl mx-auto">
+                <span class="text-xs font-semibold tracking-wider text-pink-500 uppercase">Rotina de Salão em Casa</span>
+                <h2 class="font-serif text-3xl md:text-4xl font-bold text-neutral-800">Cronograma Capilar da Bia</h2>
+                <p class="text-neutral-600 text-sm">O segredo para recuperar qualquer cabelo danificado em 4 semanas:</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Hidratação -->
+                <div class="bg-pink-50/40 p-8 rounded-3xl border border-pink-100 space-y-4">
+                    <div class="w-10 h-10 rounded-xl bg-pink-100 text-pink-500 flex items-center justify-center font-bold">H</div>
+                    <h3 class="font-serif text-xl font-bold text-neutral-800">Hidratação</h3>
+                    <p class="text-neutral-600 text-sm font-light leading-relaxed">
+                        Repõe a água perdida pelos fios no dia a dia. Essencial para maciez, balanço e maleabilidade.
+                    </p>
+                    <p class="text-xs font-semibold text-pink-600 bg-white/80 py-1.5 px-3 rounded-xl inline-block">Foco: Água e glicerina</p>
+                </div>
+
+                <!-- Nutrição -->
+                <div class="bg-pink-50/40 p-8 rounded-3xl border border-pink-100 space-y-4">
+                    <div class="w-10 h-10 rounded-xl bg-pink-100 text-pink-500 flex items-center justify-center font-bold">N</div>
+                    <h3 class="font-serif text-xl font-bold text-neutral-800">Nutrição</h3>
+                    <p class="text-neutral-600 text-sm font-light leading-relaxed">
+                        Repõe os lipídios e óleos naturais. Acaba com o frizz indesejado e sela as cutículas perfeitamente.
+                    </p>
+                    <p class="text-xs font-semibold text-pink-600 bg-white/80 py-1.5 px-3 rounded-xl inline-block">Foco: Óleos e manteigas</p>
+                </div>
+
+                <!-- Reconstrução -->
+                <div class="bg-pink-50/40 p-8 rounded-3xl border border-pink-100 space-y-4">
+                    <div class="w-10 h-10 rounded-xl bg-pink-100 text-pink-500 flex items-center justify-center font-bold">R</div>
+                    <h3 class="font-serif text-xl font-bold text-neutral-800">Reconstrução</h3>
+                    <p class="text-neutral-600 text-sm font-light leading-relaxed">
+                        Devolve a massa capilar e a queratina perdida por químicas ou fontes de calor excessivas.
+                    </p>
+                    <p class="text-xs font-semibold text-pink-600 bg-white/80 py-1.5 px-3 rounded-xl inline-block">Foco: Queratina e colágeno</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dicas" class="py-20 bg-pink-50/50">
+        <div class="max-w-6xl mx-auto px-6 space-y-12">
+            <div class="text-center space-y-3 max-w-xl mx-auto">
+                <span class="text-xs font-semibold tracking-wider text-pink-500 uppercase">Blog da Bia</span>
+                <h2 class="font-serif text-3xl md:text-4xl font-bold text-neutral-800">Dicas Práticas para o Dia a Dia</h2>
+                <p class="text-neutral-600 text-sm">Pequenos hábitos que mudam completamente a saúde do seu cabelo.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Post 1 -->
+                <div class="bg-white rounded-3xl overflow-hidden custom-shadow border border-pink-100 flex flex-col justify-between">
+                    <div class="h-48 bg-pink-100 flex items-center justify-center text-pink-400">
+                        <i data-lucide="droplets" class="w-12 h-12"></i>
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <span class="text-xs font-semibold text-pink-500 bg-pink-50 px-3 py-1 rounded-full">Cuidados</span>
+                        <h3 class="font-serif font-bold text-lg text-neutral-800">Como lavar o cabelo corretamente sem ressecar</h3>
+                        <p class="text-neutral-600 text-xs font-light leading-relaxed">
+                            Você sabia que aplicar shampoo direto no comprimento estraga os fios? Descubra o jeito certo de espalhar a espuma apenas na raiz.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Post 2 -->
+                <div class="bg-white rounded-3xl overflow-hidden custom-shadow border border-pink-100 flex flex-col justify-between">
+                    <div class="h-48 bg-pink-100 flex items-center justify-center text-pink-400">
+                        <i data-lucide="shield" class="w-12 h-12"></i>
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <span class="text-xs font-semibold text-pink-500 bg-pink-50 px-3 py-1 rounded-full">Proteção</span>
+                        <h3 class="font-serif font-bold text-lg text-neutral-800">A importância sagrada do protetor térmico</h3>
+                        <p class="text-neutral-600 text-xs font-light leading-relaxed">
+                            Secador, chapinha e babyliss sem proteção queimam a queratina do fio instantaneamente. Veja os melhores produtos custo-benefício.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Post 3 -->
+                <div class="bg-white rounded-3xl overflow-hidden custom-shadow border border-pink-100 flex flex-col justify-between">
+                    <div class="h-48 bg-pink-100 flex items-center justify-center text-pink-400">
+                        <i data-lucide="moon" class="w-12 h-12"></i>
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <span class="text-xs font-semibold text-pink-500 bg-pink-50 px-3 py-1 rounded-full">Sono Beauty</span>
+                        <h3 class="font-serif font-bold text-lg text-neutral-800">Por que usar touca e fronha de cetim?</h3>
+                        <p class="text-neutral-600 text-xs font-light leading-relaxed">
+                            O algodão absorve a hidratação e causa atrito, gerando frizz e quebra. O cetim desliza perfeitamente, mantendo seu cabelo arrumado ao acordar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white border-t border-pink-100 py-12">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-full bg-pink-100 flex items-center justify-center text-pink-500 font-serif font-bold text-sm">
+                    B
+                </div>
+                <span class="font-serif font-semibold text-neutral-800">Dicas de Cabelo da Bia</span>
+            </div>
+            <p class="text-xs text-neutral-500 font-light">
+                Feito com muito carinho, rosa e dedicação para todas as garotas. &copy; 2026
+            </p>
+            <div class="flex items-center gap-4 text-pink-500">
+                <a href="#" class="hover:text-pink-600"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+                <a href="#" class="hover:text-pink-600"><i data-lucide="youtube" class="w-5 h-5"></i></a>
+                <a href="#" class="hover:text-pink-600"><i data-lucide="heart" class="w-5 h-5"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
